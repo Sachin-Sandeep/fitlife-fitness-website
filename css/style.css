@@ -1,0 +1,711 @@
+/* Remove default margin and padding */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Style for body */
+
+body{
+    background:#f4f4f4;
+}
+
+/* Navigation bar */
+
+.navbar{
+    background:#0077b6;
+    color:rgb(238, 233, 233);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+/* Share button */
+
+.share-btn{
+
+    padding:1px 20px;
+
+    background:#28a745;
+
+    color:white;
+
+    border:none;
+
+    border-radius:16px;
+
+    cursor:pointer;
+
+    font-size:14px;
+}
+
+.share-btn:hover{
+
+    background:#218838;
+}
+
+/* Website logo */
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Navigation links */
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+/* Space between links */
+
+.nav-links li{
+    margin-left:20px;
+}
+
+/* Link style */
+
+.nav-links a{
+    color:rgb(233, 226, 226);
+    text-decoration:none;
+}
+
+/* Hero section */
+
+.hero{
+    background-image: url(../images/bg.img23.jpeg
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Main heading */
+
+.hero h1{
+    margin-bottom:20px;
+}
+
+/* Button style */
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:white;
+    color:#078503;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+/* Benefits section */
+
+.benefits{
+    padding:50px 20px;
+    text-align:center;
+}
+
+/* Cards container */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+/* Individual card */
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Fitness tips section */
+
+.tips{
+
+    background:
+    linear-gradient(
+        rgba(53, 43, 43, 0.85),
+        rgba(12, 10, 10, 0.85)
+    ),
+    url("../images/bg.img21.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    padding:50px;
+
+    border-radius:15px;
+
+    margin:30px;
+}
+
+.tips{
+    text-align:center;
+    padding:40px;
+
+}
+
+/* Button inside tips section */
+
+.tips button{
+    margin-top:10px;
+    padding:10px 20px;
+    border:none;
+    background:#0077b6;
+    color:rgb(255, 251, 251);
+    cursor:pointer;
+}
+
+/* Footer section */
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* Responsive design for mobile */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .nav-links li{
+        margin:10px 0;
+    }
+
+}
+
+
+
+
+/* About page main section */
+
+.about-section{
+    text-align:center;
+    padding:60px 20px;
+}
+
+/* Background image for About page */
+
+.about-page{
+    background-image: url("../images/bg.img4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    ;
+}
+
+/* Mission section */
+
+.mission{
+    text-align:center;
+    padding:40px 20px;
+}
+
+/* Vision section */
+
+.vision{
+    text-align:center;
+    padding:40px 20px;
+}
+
+
+
+
+/* Workout page heading */
+
+.workout-header{
+    text-align:center;
+    padding:60px 20px;
+    color: #ebedee;
+
+   
+}
+
+/* Workout page background */
+
+.workout-page{
+
+    /* Add workout background image */
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/bg.img24.jpeg");
+
+    /* Cover full page */
+    background-size: cover;
+
+    /* Keep image centered */
+    background-position: center;
+
+    /* Do not repeat image */
+    background-repeat: no-repeat;
+
+    /* Fixed while scrolling */
+    background-attachment: fixed;
+}
+/* Card images */
+.card img{
+        width:100%;
+        border-radius:10px;
+        margin-bottom:15px;
+    }
+
+/* Workout plans section */
+
+.workout-plans{
+    padding:40px 20px;
+}
+
+.card img{
+        width:100%;
+        border-radius:10px;
+        margin-bottom:15px;
+    }
+
+/* Workout card heading */
+
+.workout-plans .card h2{
+    color:#0485ca;
+    margin-bottom:15px;
+}
+
+.card img{
+        width:100%;
+        border-radius:10px;
+        margin-bottom:15px;
+    }
+
+
+.tips{
+    color: #ece4e4;
+}
+
+/* Workout card text */
+
+.workout-plans .card p{
+    margin:10px 0;
+}
+
+
+
+
+
+/* BMI Main Container */
+
+.bmi-title{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+    color:#f3f3f3;
+}
+
+.bmi-description{
+
+    text-align:center;
+
+    color:#010029;
+
+    margin-bottom:20px;
+}
+
+.bmi-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    padding:60px 20px;
+}
+
+/* Common Card Style */
+
+.input-box,
+.result-box,
+.category-box{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+.input-box:hover,
+.result-box:hover,
+.category-box:hover{
+
+    transform:translateY(-5px);
+
+    transition:0.3s;
+}
+
+/* Input Card */
+
+.input-box{
+
+    width:300px;
+}
+
+.input-box button:hover{
+
+    background:#005f8d;
+}
+
+/* Inputs */
+
+.input-box input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:10px 0;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+}
+
+/* Button */
+
+.input-box button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#0077b6;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+/* BMI Result Card */
+
+.result-box{
+
+    width:250px;
+
+    text-align:center;
+}
+
+#result{
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    margin-top:15px;
+}
+
+/* BMI Score */
+
+#bmi-score{
+
+    width:150px;
+
+    height:150px;
+
+    border-radius:50%;
+
+    background:#f4f4f4;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin:20px auto;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    border:8px solid #0077b6;
+}
+
+/* Category Box */
+
+.category-box{
+
+    width:220px;
+}
+
+/* Category Cards */
+
+.category{
+
+    padding:15px;
+
+    margin:10px 0;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    font-weight:bold;
+}
+
+.under{
+    background:#a7d8ff;
+}
+
+.healthy{
+    background:#b8f5c5;
+}
+
+.over{
+    background:#ffe3a3;
+}
+
+.obese{
+    background:#ffb3b3;
+}
+
+/* Active category */
+
+.active-category{
+
+    border:3px solid #000;
+
+    transform:scale(1.05);
+
+    transition:0.3s;
+}
+
+/* Animated BMI Circle */
+
+.bmi-circle{
+
+    width:170px;
+
+    height:170px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:20px auto;
+
+    background:
+    conic-gradient(
+        #0077b6 0deg,
+        #dfe6e9 0deg
+    );
+
+    transition:0.8s;
+}
+
+/* Score Number */
+
+#bmi-score{
+
+    width:130px;
+
+    height:130px;
+
+    background:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    font-weight:bold;
+}
+
+/* BMI page background */
+
+.bmi-page{
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url("../images/bg.img19.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.input-box,
+.result-box,
+.category-box{
+
+    background: rgba(255,255,255,0.92);
+
+    backdrop-filter: blur(5px);
+
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+/* Contact page section */
+
+.contact-section{
+    text-align:center;
+    padding:60px 20px;
+    color: #ffffff;
+}
+
+/* Contact page background */
+
+.contact-page{
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url("../images/bg.img20.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+/* Contact form inputs */
+
+.contact-section input,
+.contact-section textarea{
+    width:300px;
+    padding:10px;
+    font-size:16px;
+}
+
+/* Contact button */
+
+.contact-section button{
+    padding:10px 20px;
+    background:#0077b6;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+/* Contact information section */
+
+.contact-info{
+    text-align:center;
+    padding:40px 20px;
+    color: #fffefe;
+}
+
+
+
+
+/* FOOTER section style */
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+/* Responsive design for tablets and mobile devices */
+
+@media(max-width:768px){
+
+    /* Change navbar layout to vertical */
+    .navbar{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    /* Display navigation links vertically */
+    .nav-links{
+        flex-direction:column;
+        text-align:center;
+        margin-top:10px;
+    }
+
+    /* Add space between navigation items */
+    .nav-links li{
+        margin:10px 0;
+    }
+
+    /* Reduce hero heading size on small screens */
+    .hero h1{
+        font-size:28px;
+    }
+
+    /* Make cards wider for mobile screens */
+    .card{
+        width:90%;
+    }
+
+    .contact-section input,
+    .contact-section textarea,
+    .bmi-section input{
+        width:90%;
+    }
+} 
