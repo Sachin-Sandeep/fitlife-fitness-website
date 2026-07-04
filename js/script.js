@@ -1,29 +1,3 @@
-/* Share website function */
-
-function shareWebsite(){
-
-    if(navigator.share){
-
-        navigator.share({
-
-            title: "FitLife Fitness Website",
-
-            text: "Check out this fitness website!",
-
-            url: window.location.href
-
-        });
-
-    }
-
-    else{
-
-        alert(
-        "Sharing is not supported in this browser."
-        );
-    }
-}
-
 // Store fitness tips
 
 const tips = [
@@ -55,6 +29,18 @@ function showTip(){
     tips[random];
 
 }
+
+//Share button
+
+function copyLink(){
+
+    navigator.clipboard.writeText(
+    "https://sachin-sandeep.github.io/fitlife-fitness-website/"
+    );
+
+    alert("Website link copied!");
+}
+
 
 
 
