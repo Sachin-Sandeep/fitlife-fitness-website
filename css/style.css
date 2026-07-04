@@ -24,30 +24,6 @@ body{
     padding:15px 50px;
 }
 
-/* Share button */
-
-.share-btn{
-
-    padding:1px 20px;
-
-    background:#28a745;
-
-    color:white;
-
-    border:none;
-
-    border-radius:16px;
-
-    cursor:pointer;
-
-    font-size:14px;
-}
-
-.share-btn:hover{
-
-    background:#218838;
-}
-
 /* Website logo */
 
 .logo{
@@ -170,6 +146,32 @@ body{
     background:#0077b6;
     color:rgb(255, 251, 251);
     cursor:pointer;
+}
+
+.share-btn{
+
+    display:inline-block;
+
+    padding:12px 20px;
+
+    margin:10px;
+
+    background:#28a745;
+
+    color:white;
+
+    text-decoration:none;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+.share-btn:hover{
+
+    background:#218838;
 }
 
 /* Footer section */
